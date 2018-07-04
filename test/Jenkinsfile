@@ -1,4 +1,4 @@
-@Library('jenkins-utils') _
+@Library('jenkins-pipeline-workshop-library') _
 
 node {
     utilB()
