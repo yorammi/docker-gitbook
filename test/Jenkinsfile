@@ -1,0 +1,17 @@
+@Library('jenkins-utils') _
+
+node {
+    utilB()
+}
+
+pipeline {
+    agent any
+
+    stages {
+        stage ('Testing') {
+            steps{
+                echo "Just testing"
+            }
+        }
+    }
+}
